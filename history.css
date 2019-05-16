@@ -1,0 +1,122 @@
+body {
+	margin-right:0;
+	margin-left:0;
+	margin-top:0;
+}
+
+a {
+	text-decoration: none;
+	color:Coral;
+}
+
+h1 {
+	font-size:75px;
+	text-align: center;
+	font-family: 'Black Han Sans', sans-serif;
+	font-weight: 400;
+	border-bottom:20px solid LightSteelBlue;
+	border-top:20px solid LightSteelBlue;
+	margin:0;
+	padding:40px;
+	background-color: black;
+}
+
+ol{
+	border-right:8px solid LightSteelBlue;
+	width:200px;
+	margin:0;
+	padding:5px;
+	padding-top:20px;
+	text-align: center;
+	font-family: 'Black Han Sans', sans-serif;
+	font-size:40px;
+	list-style-type:none; 
+	}
+	
+#grid{
+	display: grid;
+	grid-template-columns: 170px 1fr;
+}
+
+#article{
+	padding-left: 60px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#small{
+	font-size: 20px;
+}
+
+#smallarticle{
+	padding-left: 60px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	color:black;
+	padding-top: 50px;
+}
+
+#bigarticle{
+	padding-left: 60px;
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 45px;
+	font-weight: 400;
+	color:Coral;
+	padding-top: 50px;
+}
+
+#blacklink {
+	color: Coral;
+}
+
+#coralarticle {
+	color: Coral;
+}	
+@media(max-width:900px){
+	#grid{
+		display: block;
+	}
+	ol{
+		border-right: none;
+		width:200px;
+		margin:0;
+		padding:5px;
+		padding-top:20px;
+		text-align: center;
+		font-family: 'Black Han Sans', sans-serif;
+		font-size:35px;
+	}
+	#bigarticle{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-family: 'Black Han Sans', sans-serif;
+		font-size: 45px;
+		font-weight: 400;
+		color:Coral;
+		padding-top: 50px;
+	}
+	#smallarticle{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		color:black;
+		padding-top: 50px;
+	}
+	#article{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-family: 'Noto Sans KR', sans-serif;
+		font-size: 30px;
+		font-weight: 400;
+	}
+	p{
+		margin-top: 0px;
+	}
+	#smallwhite{
+		font-size: 0px;
+	}
+}
